@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "es2015",
+        "lib": [
+            "es2015",
+        ],
+        "moduleResolution": "node",
+        "jsx": "react-native",
+        "outDir": "js",
+        "rootDir": "src",
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        "paths": {
+            "src/*": [
+                "./*"
+            ],
+        },
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "android",
+        "ios",
+        "js",
+        "node_modules"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "search.exclude": {
+        "**/android": true,
+        "**/ios": true,
+        "**/js": true
+    }
+}
